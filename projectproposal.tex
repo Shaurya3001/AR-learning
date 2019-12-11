@@ -1,0 +1,245 @@
+
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem}
+\usepackage{soul}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{extarrows}
+\usepackage{graphicx}
+\usepackage[backend=biber,
+style=numeric,
+sorting=none,
+isbn=false,
+doi=false,
+url=false,
+]{biblatex}\addbibresource{bibliography.bib}
+
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{wasysym}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{ragged2e}
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{changepage}
+\usepackage{setspace}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{tabto}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[hidelinks]{hyperref}
+\usetikzlibrary{shapes.symbols,shapes.geometric,shadows,arrows.meta}
+\tikzset{>={Latex[width=1.5mm,length=2mm]}}
+\usepackage{flowchart}\usepackage[paperheight=11.69in,paperwidth=8.27in,left=1.0in,right=1.0in,top=1.0in,bottom=1.0in,headheight=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\TabPositions{0.5in,1.0in,1.5in,2.0in,2.5in,3.0in,3.5in,4.0in,4.5in,5.0in,5.5in,6.0in,}
+
+\urlstyle{same}
+
+
+ %%%%%%%%%%%%  Set Depths for Sections  %%%%%%%%%%%%%%
+
+% 1) Section
+% 1.1) SubSection
+% 1.1.1) SubSubSection
+% 1.1.1.1) Paragraph
+% 1.1.1.1.1) Subparagraph
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+ %%%%%%%%%%%%  Set Depths for Nested Lists created by \begin{enumerate}  %%%%%%%%%%%%%%
+
+
+\setlistdepth{9}
+\renewlist{enumerate}{enumerate}{9}
+		\setlist[enumerate,1]{label=\arabic*)}
+		\setlist[enumerate,2]{label=\alph*)}
+		\setlist[enumerate,3]{label=(\roman*)}
+		\setlist[enumerate,4]{label=(\arabic*)}
+		\setlist[enumerate,5]{label=(\Alph*)}
+		\setlist[enumerate,6]{label=(\Roman*)}
+		\setlist[enumerate,7]{label=\arabic*}
+		\setlist[enumerate,8]{label=\alph*}
+		\setlist[enumerate,9]{label=\roman*}
+
+\renewlist{itemize}{itemize}{9}
+		\setlist[itemize]{label=$\cdot$}
+		\setlist[itemize,1]{label=\textbullet}
+		\setlist[itemize,2]{label=$\circ$}
+		\setlist[itemize,3]{label=$\ast$}
+		\setlist[itemize,4]{label=$\dagger$}
+		\setlist[itemize,5]{label=$\triangleright$}
+		\setlist[itemize,6]{label=$\bigstar$}
+		\setlist[itemize,7]{label=$\blacklozenge$}
+		\setlist[itemize,8]{label=$\prime$}
+
+\setlength{\topsep}{0pt}\setlength{\parindent}{0pt}
+
+ %%%%%%%%%%%%  This sets linespacing (verticle gap between Lines) Default=1 %%%%%%%%%%%%%%
+
+
+\renewcommand{\arraystretch}{1.3}
+
+
+%%%%%%%%%%%%%%%%%%%% Document code starts here %%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\begin{Center}
+{\fontsize{18pt}{21.6pt}\selectfont \textbf{IDEA PROPOSAL}\par}
+\end{Center}\par
+
+\setlength{\parskip}{8.04pt}
+\begin{Center}
+{\fontsize{18pt}{21.6pt}\selectfont \textbf{e-Yantra Ideas Competition 2019-20}\par}
+\end{Center}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{Project Name:}}\par}\tab \par
+
+\textcolor[HTML]{0070C0}{E-learning AR application}\par
+
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{ Introduction}}\par}\par
+
+\textcolor[HTML]{0070C0}{The current education system in schools relies heavily on images in textbooks for imparting knowledge about the complex anatomical structures. The students are still learning with a two-dimensional perspective even though 3-D technology is readily available. With the availability of current technology, we have a wonderful opportunity of reforming our current education system, making it more interesting and interactive for the students. Augmented Reality has a huge potential in enhancing the learning experience using mobile/portable devices. In the proposed system we will be making an application that will act as a study material of staffs as well as student for better understanding of anatomical structures. This application will not only be used in interactive learning but can possibly run on minimum of the resources and without any extra cost.}\par
+
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{Market Research / Literature Survey:}}\par}\par
+
+\begin{table}[H]
+ 			\centering
+\begin{tabular}{p{1.39in}p{0.55in}p{0.58in}p{0.45in}p{1.25in}p{0.93in}}
+\hline
+%row no:1
+\multicolumn{1}{|p{1.39in}}{\textbf{\  Paper Name} \par } & 
+\multicolumn{1}{|p{0.55in}}{\textbf{Year of Public-ation}} & 
+\multicolumn{1}{|p{0.58in}}{\textbf{Author}} & 
+\multicolumn{1}{|p{0.45in}}{\textbf{Publication}} & 
+\multicolumn{1}{|p{1.25in}}{\textbf{Proposed work}} & 
+\multicolumn{1}{|p{0.93in}|}{\textbf{Research Gap}} \\
+\hhline{------}
+%row no:2
+\multicolumn{1}{|p{1.39in}}{\textcolor[HTML]{0070C0}{Integration of Virtual Reality and Augmented Reality- Are they worth the effort in Education?} \par } & 
+\multicolumn{1}{|p{0.55in}}{\textcolor[HTML]{0070C0}{2018}} & 
+\multicolumn{1}{|p{0.58in}}{\Centering \textcolor[HTML]{0070C0}{Usman Durrani,} \par \Centering \textcolor[HTML]{0070C0}{Zijad Pita} \par } & 
+\multicolumn{1}{|p{0.45in}}{\textcolor[HTML]{0070C0}{IEEE}} & 
+\multicolumn{1}{|p{1.25in}}{\textcolor[HTML]{0070C0}{Research on whether AR and VR are viable options for imparting education} \par } & 
+\multicolumn{1}{|p{0.93in}|}{\textcolor[HTML]{0070C0}{Time} \par \textcolor[HTML]{0070C0}{Complexity} \par } \\
+\hhline{------}
+%row no:3
+\multicolumn{1}{|p{1.39in}}{\textcolor[HTML]{0070C0}{iRay: Mobile AR Using Structure Sensor} \par } & 
+\multicolumn{1}{|p{0.55in}}{\textcolor[HTML]{0070C0}{2016}} & 
+\multicolumn{1}{|p{0.58in}}{\Centering \textcolor[HTML]{0070C0}{Tian Xie,} \par \Centering \textcolor[HTML]{0070C0}{Alan B. Lumsden} \par } & 
+\multicolumn{1}{|p{0.45in}}{\textcolor[HTML]{0070C0}{IEEE}} & 
+\multicolumn{1}{|p{1.25in}}{\textcolor[HTML]{0070C0}{Implementation of AR using structure sensor in medical field} \par } & 
+\multicolumn{1}{|p{0.93in}|}{\textcolor[HTML]{0070C0}{Expensive inputs} \par } \\
+\hhline{------}
+%row no:4
+\multicolumn{1}{|p{1.39in}}{\textcolor[HTML]{0070C0}{An AR-based Support System for Learning Chemical Reaction Formula in Science of Junior High School} \par } & 
+\multicolumn{1}{|p{0.55in}}{\textcolor[HTML]{0070C0}{2018}} & 
+\multicolumn{1}{|p{0.58in}}{\Centering \textcolor[HTML]{0070C0}{Rina Ashida, Mitsunori Makino} \par } & 
+\multicolumn{1}{|p{0.45in}}{\textcolor[HTML]{0070C0}{IEEE}} & 
+\multicolumn{1}{|p{1.25in}}{\textcolor[HTML]{0070C0}{A new learning method for chemical bonds using} \par \textcolor[HTML]{0070C0}{(AR) and projection type smart} \par \textcolor[HTML]{0070C0}{devices are proposed} \par } & 
+\multicolumn{1}{|p{0.93in}|}{\textcolor[HTML]{0070C0}{Application in a totally different domain} \par } \\
+\hhline{------}
+
+\end{tabular}
+ \end{table}
+
+
+
+\vspace{\baselineskip}
+\begin{adjustwidth}{0.0in}{0.1in}
+\textcolor[HTML]{0070C0}{Table: Literature Survey}\par
+
+\end{adjustwidth}
+
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{Hardware requirements:}}\par}\par
+
+\begin{enumerate}
+	\item \textcolor[HTML]{0070C0}{512MB Random Access Memory(RAM)}\par
+
+	\item \textcolor[HTML]{0070C0}{Internal/external storage Option (size may vary)}\par
+
+	\item \textcolor[HTML]{0070C0}{Integrated Camera module ‘minimum VGA’ (2MP or more recommended)}
+\end{enumerate}\par
+
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{Software requirements:}}\par}\par
+
+\textcolor[HTML]{0070C0}{For implementation}\par
+
+\begin{enumerate}
+	\item \textcolor[HTML]{0070C0}{Unity 3D}\par
+
+	\item \textcolor[HTML]{0070C0}{Vuforia SDK}\par
+
+	\item \textcolor[HTML]{0070C0}{Autodesk Maya}
+\end{enumerate}\par
+
+\textcolor[HTML]{0070C0}{For running the application}\par
+
+\textcolor[HTML]{0070C0}{-none}\par
+
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{Implementation:}}\par}\par
+
+\textcolor[HTML]{0070C0}{The system is an application which uses augmented reality to display 3D anatomical structure whenever the $``$target image$"$  is kept in front of the camera.}\par
+
+\textcolor[HTML]{0070C0}{This $``$target image$"$  is stored in database generated by Vuforia which is an integrated module of Unity 3D and used for storing target images that can be scanned in real-time in an application whenever pointed by the smart device. A virtual structure will be displayed over the target image in real time. These structures are the object files created via Autodesk Maya and both the target image and the structure is linked with each other via Unity 3D which further helps us in development of the application.}\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=6.27in,height=3.7in]{./media/image1.png}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+\begin{Center}
+\textcolor[HTML]{0070C0}{Figure: entity relationship flowchart}
+\end{Center}\par
+
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{Feasibility}: }\par}\par
+
+\textcolor[HTML]{0070C0}{The conventional systems used today are very high end and not related to human anatomy, where a subject is the barrier in such case the system which are already available for anatomical structures are mainly for higher level of education in this field. This software often comes with a price tag and expensive inputs which make it not-so-affordable for every user of the platform. Additionally, this software isn’t specifically designed for a secondary/higher secondary student, where else for imparting basic knowledge these systems are often more complex which is not required at that stage. Also, the main goal of the proposed system is to enhance the e-learning without any additional cost.}\par
+
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\uline{References:}}\par}\par
+
+
+\vspace{\baselineskip}
+\begin{enumerate}
+	\item \textcolor[HTML]{0070C0}{Usman Durrani, Zijad Pita, Integration of Virtual Reality and Augmented Reality: Are the Worth the Effort in Education, 2018.}\par
+
+
+\vspace{\baselineskip}
+	\item \textcolor[HTML]{0070C0}{Rina Ashida, Mitsunori Makino, An AR-based Support System for Learning Chemical Reaction Formula in Science of Junior High School, 2018.}\par
+
+
+\vspace{\baselineskip}
+	\item \textcolor[HTML]{0070C0}{Tian Xie, Christophoros Nikou, Alan B. Lumsden, iRay: Mobile AR Using Structure Sensor, 2016.}
+\end{enumerate}\par
+
+
+\printbibliography
+\end{document}
