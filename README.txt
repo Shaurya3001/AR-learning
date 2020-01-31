@@ -18,3 +18,5 @@ Step 6) Plug in an android device to the PC/Laptop, running Android KitKat or hi
 Step 7) Go to file, and click on Build and Run. The APKs will automatically be installed in the Android system.
 
 Step 8) Once the APK runs, Point the camera of the Android device to the target images provided in the Google Drive folder, and you'll be able to see the 3D structures in an Augmented Reality setting. Pinch to Zoom is enabled to see the structures more clearly.
+
+Alternate Step - In case Unity3D is not availeble, we have provided prebuilt APKs for your convenience, all you have to do is to load the APK on your Android device and follow Step 8.
