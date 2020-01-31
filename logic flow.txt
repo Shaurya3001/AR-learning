@@ -1,0 +1,35 @@
+Project name: AR Application
+(As per our discussion with the EYIC proctors, we are sharing the logic flow of our project than the actual code, due to our project being dependent on Unity3D and Vuforia)
+
+Author List: Shaurya Gulati, Faizal Shaikh, Anushri Shetty
+Project flow
+
+Phase 1: target image 
+/* the target image is first scanned by the scanner and uploaded on vuforia's website
+
+*vuforia runs an algorithm where it looks for the sharp edges in the image and marks them 
+These marks are then use to detecting an image 
+The more edges the image has the more easier it can detect the image 
+
+*vuforia generates a database file and a licence key 
+*vuforia doesn't stores the whole image but just the map of the points it needs to detect the image 
+Phase 2: 3d model 
+*the complex 3d model are made using Autodesk Maya and adobe blender
+*Unlike autocad where we work with sharp images Autodesk maya stitches two or more images together giving a desired edge we want 
+It can be used to design anatomical structures.
+
+*few simpler 3D models are made using basic spheres and cylinders found in unity itself
+*Downloadable royalty free 3D models
+* the final model is .obj file 
+
+Phase 3: app development
+*the app is made using unity 3D 
+*deletion of main camera/importing AR camera (inbuilt vuforia integration)
+*importing .obj file and image files in resources section
+* importing database by vuforia and linking it through
+License key 
+*positioning of 3D models on top of the target image 
+ Applying c# script for rotation and zooming in the 3d models 
+*looking in for parent-child dependencies 
+*adding labels in models if required 
+*Building the app
